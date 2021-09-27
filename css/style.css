@@ -1,0 +1,127 @@
+/* header */
+header {
+  width: 100%;
+  height: auto;
+  background-color: var(--smookWhite);
+}
+/* header content */
+.headerContent {
+  margin-top: -200px;
+}
+.headerContent h1 {
+  color: var(--darkFont);
+  font-size: 4rem;
+}
+.customButton {
+  padding: 1rem 2.5rem;
+  border: none;
+  background-color: var(--darkBrow);
+  color: var(--mainColor);
+}
+/* second content */
+.seconContentDiv {
+  margin-top: -200px;
+}
+/* second content */
+/* header content */
+/* header */
+/* banner section one*/
+.sectionContener {
+  width: 100%;
+  height: 100%;
+  background-image: url(../imges/Mask\ Group.png);
+  background-position: center;
+  background-size: cover;
+}
+.sectionContener .row {
+  width: 100%;
+  height: 100%;
+}
+.imgDivOne {
+  max-width: 700px;
+  margin: auto;
+}
+/* banner section one*/
+/* card section one- */
+.extra_padding_two {
+  position: relative;
+  margin-top: -350px;
+}
+.extra_padding_two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../imges/Group\ 56.png);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.extra_padding_two .card h5 {
+  color: var(--brow);
+  font-weight: 700;
+}
+.secondCard {
+  margin-top: 6rem;
+}
+.contentSectionThree h1 {
+  font-size: 5rem;
+}
+.contentSectionThree span {
+  font-weight: 300;
+}
+/* card section one- */
+/*card section two*/
+.card_section_two {
+  margin-top: -260px;
+}
+/*card section two*/
+/* Banner section */
+.banner_section h1 {
+  font-size: 5rem;
+}
+.customiseBtn {
+  border: 1px solid var(--darkBrow);
+}
+.colorDiv {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+.colorDiv:nth-child(1) {
+  background-color: #cae6ff;
+}
+.colorDiv:nth-child(2) {
+  background-color: #ffc3c3;
+}
+.colorDiv:nth-child(3) {
+  background-color: #ceffdc;
+}
+/* Banner section */
+/* products section */
+.ProductsDivImg {
+  position: relative;
+  padding: 30px 0;
+}
+.productsSectionContent {
+  max-width: 200px;
+  margin: auto;
+  padding: 1rem;
+}
+.productsSectionContent h1 {
+  font-size: 2.5rem;
+}
+/* products section */
+/* best sellect section */
+.bestSeller {
+  background-image: url(../imges/Rectangle\ 36.png);
+  background-position: center;
+  background-size: cover;
+}
+.sectionMinHeight {
+  min-height: 40vh;
+}
+/* best sellect section */

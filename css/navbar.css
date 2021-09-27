@@ -1,0 +1,14 @@
+nav {
+  z-index: 999;
+}
+.navbar-brand {
+  color: var(--darkFont);
+}
+.nav-link {
+  color: var(--darkFont);
+}
+.iconDiv {
+  width: 30px;
+  height: 30px;
+  background-color: var(--darkBrow);
+}
