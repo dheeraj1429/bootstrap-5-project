@@ -1,0 +1,21 @@
+footer {
+  padding: 20px 0;
+}
+.footerHeader {
+  color: var(--darkFont);
+  font-weight: bold;
+}
+footer a {
+  color: var(--darkFont);
+}
+.footerIconDiv > div {
+  width: 40px;
+  height: 40px;
+  background-color: var(--brow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 1rem 1rem;
+  color: var(--mainColor);
+}
