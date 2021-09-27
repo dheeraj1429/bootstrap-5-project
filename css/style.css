@@ -4,6 +4,21 @@ header {
   height: auto;
   background-color: var(--smookWhite);
 }
+
+/* side bar */
+.sidebar {
+  width: 300px;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sidebar ul li {
+  margin: 6rem 0;
+  color: var(--darkBrow);
+  transform: rotate(90deg);
+}
+/* side bar */
 /* header content */
 .headerContent {
   margin-top: -200px;
@@ -121,7 +136,89 @@ header {
   background-position: center;
   background-size: cover;
 }
-.sectionMinHeight {
+.sectionMinHeightDiv {
   min-height: 40vh;
 }
 /* best sellect section */
+
+/* media */
+@media (max-width: 1600px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1500px) {
+  .productsSectionContent {
+    position: relative !important;
+    max-width: auto;
+    padding: 1rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .headerContent {
+    margin-top: 0px;
+  }
+  .seconContentDiv {
+    margin-top: 0px;
+  }
+  .firstContentDiv p {
+    color: var(--darkBrow) !important;
+  }
+  .firstContentDiv h1 {
+    color: var(--darkBrow) !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner_section h1 {
+    font-size: 3rem;
+  }
+  .bestSeller {
+    background-color: var(--darkBrow);
+  }
+  .bestSeller h1 {
+    color: var(--mainColor);
+  }
+  .bestSeller p {
+    color: var(--mainColor);
+  }
+  .bestSeller .customButton {
+    background-color: var(--mainColor);
+    color: var(--darkBrow);
+  }
+  .marginClass {
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .sectionMinHeightDiv {
+    min-height: 0vh;
+  }
+  .banner_section h1 {
+    font-size: 2rem;
+  }
+  .card {
+    margin: 1rem 0;
+  }
+  .seconContentDiv {
+    margin-top: 1rem;
+  }
+  .contentSectionThree h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .productsSectionContent {
+    position: absolute !important;
+    max-width: auto;
+    padding: 1rem;
+    max-width: 200px;
+  }
+}
+
+/* media */
